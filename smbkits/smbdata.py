@@ -16,7 +16,7 @@ class DOSmap(object):
         self.en = en
         self.Z  = Z
 
-dataFolder = '/Users/Harry/Documents/University/Hoffman Lab/SmB6/Data/_Good Data'
+dataFolder = '/Users/Harry/Documents/University/Hoffman Lab/SmB6/Data/_Good Data/'
 validMatFiles = []; valid3dsFiles = []
 for fileID in os.listdir(dataFolder):
     if fileID.endswith('.mat'): validMatFiles.append(fileID[:-4])
