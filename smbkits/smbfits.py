@@ -8,7 +8,7 @@ class TemperatureSpectra(MorrFit.Didv):
         self.didv = didv/didv[-1]
         self.en = en
         self.N = len(en)
-        self.res = 1e4
+        self.res = int(1e4)
         
     def fitPolyBackground(self,fitRange,deg = 1):
         self.en_bk, self.didv_bk = self._HPmegaCrop(didv=self.didv,fitRange=fitRange)

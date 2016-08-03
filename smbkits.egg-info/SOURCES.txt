@@ -1,10 +1,14 @@
 setup.py
+smbkits/MorrFit.py
 smbkits/__init__.py
 smbkits/engine.py
-smbkits/fit.py
 smbkits/io.py
+smbkits/mhhio.py
+smbkits/nanoio.py
 smbkits/plt.py
-smbkits/test.py
+smbkits/smbdata.py
+smbkits/smbfits.py
+smbkits/tools.py
 smbkits.egg-info/PKG-INFO
 smbkits.egg-info/SOURCES.txt
 smbkits.egg-info/dependency_links.txt
